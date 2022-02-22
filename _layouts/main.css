@@ -1,0 +1,196 @@
+body{
+	margin: 0px;
+}
+
+nav ul{
+	list-style-type: none;
+	border-left: 15px solid #B78AFF;
+	margin: 0px;
+	padding: 0px;
+	position: fixed;
+	overflow: hidden;
+	background-color: #000000;
+	width: 100%;
+}
+
+nav li{
+	float: left;
+}
+
+nav li a{
+	display: block;
+	padding: 17px 30px 14px 30px;
+	margin-left: 30px;
+	text-align: center;
+	text-decoration: none;
+	font-family: 'Heebo', sans-serif;
+	font-weight: 500;
+	font-size: 18px;
+	color: #E8EDDF;
+	background-color: #000000;
+}
+
+nav li a:hover{
+	color: #B78AFF;
+	border-bottom: solid 3px #B78AFF;
+}
+
+nav .active{
+	color: #B78AFF;
+	border-bottom: solid 3px #B78AFF;
+}
+
+.banner{
+	padding: 80px 0px 80px;
+	margin: 0px;
+	background-color: #222222;
+	background-image: url("_assets/Raleigh-Skyline-Grayscale-DARK.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+	border-bottom: 6px solid #B78AFF;
+	width: 100%;
+	display: block;
+	overflow: hidden;
+}
+
+.banner-content {
+	background-color: #000000;
+	padding: 50px;
+	margin: 50px 0px 0px 275px;
+	width: 25%;
+}
+
+.banner h1{
+	font-family: 'Heebo', sans-serif;
+	font-weight: 600;
+	font-size: 50px;
+	color: #FFFFFF;
+	margin: -10px 0px 8px;
+}
+
+.banner h2{
+	font-family: 'Courier Prime', monospace;
+	font-size: 20px;
+	color: #B78AFF;
+	padding-left: 2px;
+	margin-bottom: 0px;
+}
+
+.banner p{
+	line-height: 27px;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 18px;
+	color: #FFFFFF;
+	margin-top: 0px;
+	padding-left: 2px;
+}
+
+.banner a{
+	text-decoration: none;
+	color: #B78AFF;
+}
+
+.banner a:hover{
+	text-decoration: none;
+	color: #D6BDFF;
+}
+
+.content{
+	padding: 20px 20px 80px 300px;
+	margin: 20px;
+	width: 70%
+}
+
+.content h1{
+	font-family: 'Heebo', sans-serif;
+	font-weight: 500;
+	font-size: 25px;
+	margin-bottom: -10px;
+}
+
+.content h2{
+	font-family: 'Heebo', sans-serif;
+	font-weight: 500;
+	font-size: 20px;
+	margin-bottom: -10px;
+}
+
+.content h3{
+	font-family: Arial;
+	font-size: 14px;
+}
+
+.content p{
+	text-align: left;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 16px;
+	width: 50%;
+}
+
+.content img{
+	float: right;
+	clear: right;
+	margin-left: 50px;
+	vertical-align: middle;
+	width: 20%;
+	height: auto;
+	border: 4px solid #000000;
+}
+
+.content iframe {
+	display: block;
+	overflow-x: hidden;
+	width: 90%;
+	height: 650px;
+	margin-top: 25px;
+}
+
+.back-to-top{
+	float: right;
+	display: block;
+	border: none;
+	padding: 8px;
+	background-color: #000000;
+	font-family: Arial;
+	font-size: 12px;
+}
+
+.back-to-top a{
+	font-family: 'Heebo', sans-serif;
+	font-weight: 500;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.back-to-top a:hover{
+	color: #B78AFF;
+}
+
+.social-media-panel ul{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	bottom: 0px;
+	overflow: hidden;
+	width: 100%;
+	position: fixed;
+	background-color: #000000;
+}
+
+.social-media-panel li{
+	float: left;
+}
+
+.social-media-panel li a{
+	display: block;
+	text-decoration: none;
+	padding: 14px 25px 14px 25px;
+	font-family: Roboto;
+	font-size: 16px;
+	color: #FFFFFF;
+}
+
+.social-media-panel li a:hover{
+	color: #B78AFF;
+}
