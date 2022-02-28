@@ -2,6 +2,18 @@ body{
 	margin: 0px;
 }
 
+.dark-mode {
+  background-color: #1F1F1F;
+}
+
+.dark-mode .content{
+	color: #FFFFFF;
+}
+
+.dark-mode .content img {
+	border: 4px solid #FFFFFF;
+}
+
 nav ul{
 	list-style-type: none;
 	border-left: 15px solid #B78AFF;
@@ -38,6 +50,24 @@ nav li a:hover{
 nav .active{
 	color: #B78AFF;
 	border-bottom: solid 3px #B78AFF;
+}
+
+.dark-mode-toggle {
+	float: right;
+	display: block;
+	border: none;
+	padding: 8px;
+	margin: 50px 100px;
+	font-family: 'Heebo', sans-serif;
+	font-weight: 500;
+	font-size: 15px;
+	background-color: #000000;
+	color: #FFFFFF;
+	border: solid 2px #000000;
+}
+
+.dark-mode-toggle:hover {
+	color: #B78AFF;
 }
 
 .banner{
@@ -152,13 +182,12 @@ nav .active{
 	border: none;
 	padding: 8px;
 	background-color: #000000;
-	font-family: Arial;
-	font-size: 12px;
 }
 
 .back-to-top a{
 	font-family: 'Heebo', sans-serif;
 	font-weight: 500;
+	font-size: 12px;
 	text-decoration: none;
 	color: #FFFFFF;
 }
