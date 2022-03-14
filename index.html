@@ -2,15 +2,15 @@
 <head>
 	<title>Welcome to My Portfolio!</title>
 	<link rel="stylesheet" href="main.css">
-	<link href="https://fonts.googleapis.com/css2?family=Roboto" rel="stylesheet">
-	<script src="dark-mode.js"></script>
+	<script src="main.js"></script>
 
 	<!-- Fonts -->
 	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital@1&display=swap');
 		@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
 		@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@500;600&display=swap');
-		@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital@1&display=swap');
 		@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+		@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 	</style>
 </head>
 
@@ -29,7 +29,7 @@
 			<h2>hello, world!</h2>
 			<h1>KAYLA FARRAR</h1>
 			<p>I am a student attending North Carolina Central University studying computer science and business looking for valuable work experience in the IT industry so that I can strengthen my skills and grow as a developer.</p>
-			<button class="dark-mode-toggle" onclick="toggleDarkMode();">Dark Mode</button>
+			<button id="dark-mode-toggle" onclick="toggleDarkMode(this, this.style.width);">Dark Mode</button>
 		</div>
 	</div>
 
@@ -57,16 +57,16 @@
 		<br/>
 
 		<!-- Link to Top of Page -->
-		<button class="back-to-top"><a href="#navigation">Back to Top</a></button>
+		<button id="back-to-top"><a href="#navigation">Back to Top</a></button>
 	</div>
 
 	<!-- Footer -->
 	<div class="social-media-panel">
 		<ul>
-			<li><a href="https://github.com/kdfarrar" target="_blank">GitHub</a></li>
-			<li><a href="https://www.linkedin.com/in/kdfarrar/" target="_blank">LinkedIn</a></li>
-			<li><a href="https://replit.com/@kfarrar" target="_blank">Replit</a></li>
-			<li><a href="https://calendly.com/kdefarrar" target="_blank">Calendly</a></li>
+			<li><a href="https://github.com/kdfarrar" target="_blank" onclick="newWindowAlert();">GitHub</a></li>
+			<li><a href="https://www.linkedin.com/in/kdfarrar/" target="_blank" onclick="newWindowAlert();">LinkedIn</a></li>
+			<li><a href="https://replit.com/@kfarrar" target="_blank" onclick="newWindowAlert();">Replit</a></li>
+			<li><a href="https://calendly.com/kdefarrar" target="_blank" onclick="newWindowAlert();">Calendly</a></li>
 		</ul>
 	</div>
 </body>

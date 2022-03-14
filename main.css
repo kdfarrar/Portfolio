@@ -52,22 +52,32 @@ nav .active{
 	border-bottom: solid 3px #B78AFF;
 }
 
-.dark-mode-toggle {
+#dark-mode-toggle {
 	float: right;
 	display: block;
 	border: none;
-	padding: 8px;
+	padding: 12px;
 	margin: 50px 100px;
 	font-family: 'Heebo', sans-serif;
 	font-weight: 500;
 	font-size: 15px;
 	background-color: #000000;
 	color: #FFFFFF;
-	border: solid 2px #000000;
+	width: 110px;
 }
 
-.dark-mode-toggle:hover {
+#dark-mode-toggle:hover {
 	color: #B78AFF;
+}
+
+.dark-mode #dark-mode-toggle{
+	background-color: #FFFFFF;
+	color: #000000;
+}
+
+.dark-mode #dark-mode-toggle:hover{
+	background-color: #B78AFF;
+	color: #FFFFFF;
 }
 
 .banner{
@@ -176,7 +186,7 @@ nav .active{
 	margin-top: 25px;
 }
 
-.back-to-top{
+#back-to-top{
 	float: right;
 	display: block;
 	border: none;
@@ -184,7 +194,7 @@ nav .active{
 	background-color: #000000;
 }
 
-.back-to-top a{
+#back-to-top a{
 	font-family: 'Heebo', sans-serif;
 	font-weight: 500;
 	font-size: 12px;
@@ -192,8 +202,16 @@ nav .active{
 	color: #FFFFFF;
 }
 
-.back-to-top a:hover{
+#back-to-top a:hover{
 	color: #B78AFF;
+}
+
+.dark-mode #back-to-top{
+	background-color: #FFFFFF;
+}
+
+.dark-mode #back-to-top a{
+	color: #000000;
 }
 
 .social-media-panel ul{
