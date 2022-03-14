@@ -2,14 +2,15 @@
 <head>
 	<title>Contact Me</title>
 	<link rel="stylesheet" href="main.css">
-	<link href="https://fonts.googleapis.com/css2?family=Roboto" rel="stylesheet">
-	<script src="dark-mode.js"></script>
+	<script src="main.js"></script>
+
 	<!-- Fonts -->
 	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital@1&display=swap');
 		@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
 		@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@500;600&display=swap');
-		@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital@1&display=swap');
 		@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+		@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 	</style>
 </head>
 
@@ -30,7 +31,7 @@
 
 			<p>Below you will find my resume as well as some links to <a href="#projects">projects</a> I've done in the past. Over the years, I've gained experience in various object-oriented programming languages including Python, C++, and C#.</p>
 
-			<button class="dark-mode-toggle" onclick="toggleDarkMode();">Dark Mode</button>
+			<button id="dark-mode-toggle" onclick="toggleDarkMode(this, this.style.width);">Dark Mode</button>
 		</div>
 	</div>
 		<div class="content">
@@ -46,16 +47,16 @@
 			<br/>
 
 			<!-- Link to Top of Page -->
-			<button class="back-to-top"><a href="#navigation">Back to Top</a></button>
+			<button id="back-to-top"><a href="#navigation">Back to Top</a></button>
 		</div>
 
 		<!-- Footer -->
 		<div class="social-media-panel">
 			<ul>
-				<li><a href="https://github.com/kdfarrar">GitHub</a></li>
-				<li><a href="https://www.linkedin.com/in/kdfarrar/">LinkedIn</a></li>
-				<li><a href="https://replit.com/@kfarrar">Replit</a></li>
-				<li><a href="https://calendly.com/kdefarrar">Calendly</a></li>
+				<li><a href="https://github.com/kdfarrar" target="_blank" onclick="newWindowAlert();">GitHub</a></li>
+				<li><a href="https://www.linkedin.com/in/kdfarrar/" target="_blank" onclick="newWindowAlert();">LinkedIn</a></li>
+				<li><a href="https://replit.com/@kfarrar" target="_blank" onclick="newWindowAlert();">Replit</a></li>
+				<li><a href="https://calendly.com/kdefarrar" target="_blank" onclick="newWindowAlert();">Calendly</a></li>
 			</ul>
 		</div>
 	</div>
