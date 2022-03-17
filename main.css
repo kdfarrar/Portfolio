@@ -230,6 +230,20 @@ nav .active {
 	color: #B78AFF;
 }
 
+.dark-mode #contact-form {
+	background-color: #383838;
+}
+
+.dark-mode #contact-form button{
+	background-color: #FFFFFF;
+	color: #000000;
+}
+
+.dark-mode #contact-form button:hover {
+	background-color: #B78AFF;
+	color: #FFFFFF;
+}
+
 #back-to-top {
 	float: right;
 	display: block;
