@@ -21,3 +21,12 @@ function toggleDarkMode(darkModeToggle, darkModeToggleWidth) {
 		darkModeToggle.style.width = "110px";
 	}
 }
+
+button.addEventListener("click", sendEmail);
+function sendEmail() {
+	const messageSubject = document.getElementById('subject').value;
+	const messageContent = document.getElementById('message').value;
+
+	window.location.assign = "mailto:kdefarrar@gmail.com?subject=" + encodeURIcomponent(messageSubject) + "&body=" + encodeURIcomponent(messageContent);
+
+}

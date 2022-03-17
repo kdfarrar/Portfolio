@@ -51,13 +51,13 @@
 
 			<div id="contact-form">
 				<center><h1>Contact Me</h1></center>
-				<form>
-					<p><input type="text" placeholder="NAME*"/></p>
-					<p><input type="text" placeholder="EMAIL ADDRESS*"/></p>
-					<p><input type="text" placeholder="SUBJECT"/></p>
-					<textarea placeholder="MESSAGE" rows="30" cols="150"></textarea>
+				<form name="contact" method="POST">
+					<p><input id="name" type="text" placeholder="NAME*"/></p>
+					<p><input id="email" type="text" placeholder="EMAIL ADDRESS*"/></p>
+					<p><input id="subject" type="text" placeholder="SUBJECT"/></p>
+					<textarea id="message" placeholder="MESSAGE" rows="30" cols="150"></textarea>
 					<br />
-					<button type="submit" value="Submit" onclick="openMailerAlert();">Submit</button>
+					<button type="submit" onclick="sendEmail();">Send Message</button>
 				</form>
 			</div>
 
