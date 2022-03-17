@@ -2,6 +2,10 @@ function newWindowAlert() {
 	alert("This link will open a new tab. Click OK to continue.")
 }
 
+function openMailerAlert() {
+	alert("Submitting this form will open your default E-mail application.")
+}
+
 button.addEventListener("click", toggleDarkMode);
 function toggleDarkMode(darkModeToggle, darkModeToggleWidth) {
   	var body = document.body;

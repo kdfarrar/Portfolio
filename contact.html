@@ -29,7 +29,7 @@
 			<h2>hello, world!</h2>
 			<h1>CONTACT ME</h1>
 
-			<p>Below you will find my resume as well as some links to <a href="#projects">projects</a> I've done in the past. Over the years, I've gained experience in various object-oriented programming languages including Python, C++, and C#.</p>
+			<p>Below you will find my resume as well as some links to <a href="#projects">projects</a> I've done in the past. Over the years, I've gained experience in various object-oriented programming languages including Python, C++, and C#. Feel free to use the <a href="#contact-form">contact form</a> below to get in touch with me.</p>
 
 			<button id="dark-mode-toggle" onclick="toggleDarkMode(this, this.style.width);">Dark Mode</button>
 		</div>
@@ -42,9 +42,24 @@
 			<br/>
 
 			<!-- Projects -->
-			<h1 id="projects">Projects</h1>
+			<div id="projects">
+				<h1>Projects</h1>
+
+			</div>
 
 			<br/>
+
+			<div id="contact-form">
+				<center><h1>Contact Me</h1></center>
+				<form>
+					<p><input type="text" placeholder="NAME*"/></p>
+					<p><input type="text" placeholder="EMAIL ADDRESS*"/></p>
+					<p><input type="text" placeholder="SUBJECT"/></p>
+					<textarea placeholder="MESSAGE" rows="30" cols="150"></textarea>
+					<br />
+					<button type="submit" value="Submit" onclick="openMailerAlert();">Submit</button>
+				</form>
+			</div>
 
 			<!-- Link to Top of Page -->
 			<button id="back-to-top"><a href="#navigation">Back to Top</a></button>

@@ -1,4 +1,4 @@
-body{
+body {
 	margin: 0px;
 }
 
@@ -6,7 +6,7 @@ body{
   background-color: #1F1F1F;
 }
 
-.dark-mode .content{
+.dark-mode .content {
 	color: #FFFFFF;
 }
 
@@ -14,7 +14,7 @@ body{
 	border: 4px solid #FFFFFF;
 }
 
-nav ul{
+nav ul {
 	list-style-type: none;
 	border-left: 15px solid #B78AFF;
 	margin: 0px;
@@ -25,11 +25,11 @@ nav ul{
 	width: 100%;
 }
 
-nav li{
+nav li {
 	float: left;
 }
 
-nav li a{
+nav li a {
 	display: block;
 	padding: 17px 30px 14px 30px;
 	margin-left: 30px;
@@ -42,12 +42,12 @@ nav li a{
 	background-color: #000000;
 }
 
-nav li a:hover{
+nav li a:hover {
 	color: #B78AFF;
 	border-bottom: solid 3px #B78AFF;
 }
 
-nav .active{
+nav .active {
 	color: #B78AFF;
 	border-bottom: solid 3px #B78AFF;
 }
@@ -70,17 +70,17 @@ nav .active{
 	color: #B78AFF;
 }
 
-.dark-mode #dark-mode-toggle{
+.dark-mode #dark-mode-toggle {
 	background-color: #FFFFFF;
 	color: #000000;
 }
 
-.dark-mode #dark-mode-toggle:hover{
+.dark-mode #dark-mode-toggle:hover {
 	background-color: #B78AFF;
 	color: #FFFFFF;
 }
 
-.banner{
+.banner {
 	padding: 80px 0px 80px;
 	margin: 0px;
 	background-color: #222222;
@@ -101,7 +101,7 @@ nav .active{
 	width: 25%;
 }
 
-.banner h1{
+.banner h1 {
 	font-family: 'Heebo', sans-serif;
 	font-weight: 600;
 	font-size: 50px;
@@ -109,7 +109,7 @@ nav .active{
 	margin: -10px 0px 8px;
 }
 
-.banner h2{
+.banner h2 {
 	font-family: 'Courier Prime', monospace;
 	font-size: 20px;
 	color: #B78AFF;
@@ -117,7 +117,7 @@ nav .active{
 	margin-bottom: 0px;
 }
 
-.banner p{
+.banner p {
 	line-height: 27px;
 	font-family: 'PT Sans', sans-serif;
 	font-size: 18px;
@@ -126,49 +126,49 @@ nav .active{
 	padding-left: 2px;
 }
 
-.banner a{
+.banner a {
 	text-decoration: none;
 	color: #B78AFF;
 }
 
-.banner a:hover{
+.banner a:hover {
 	text-decoration: none;
 	color: #D6BDFF;
 }
 
-.content{
+.content {
 	padding: 20px 20px 80px 300px;
 	margin: 20px;
 	width: 70%
 }
 
-.content h1{
+.content h1 {
 	font-family: 'Heebo', sans-serif;
 	font-weight: 500;
 	font-size: 25px;
 	margin-bottom: -10px;
 }
 
-.content h2{
+.content h2 {
 	font-family: 'Heebo', sans-serif;
 	font-weight: 500;
 	font-size: 20px;
 	margin-bottom: -10px;
 }
 
-.content h3{
+.content h3 {
 	font-family: Arial;
 	font-size: 14px;
 }
 
-.content p{
+.content p {
 	text-align: left;
 	font-family: 'PT Sans', sans-serif;
 	font-size: 16px;
 	width: 50%;
 }
 
-.content img{
+.content img {
 	float: right;
 	clear: right;
 	margin-left: 50px;
@@ -186,15 +186,60 @@ nav .active{
 	margin-top: 25px;
 }
 
-#back-to-top{
+#contact-form {
+	display: inline-block;
+	padding: 0px 30px 0px 30px;
+	margin: 20px 50% 20px 0px;
+	margin-right: 50% auto;
+	background-color: #EDEDEF;
+	border-top: 30px solid #000000;
+}
+
+#contact-form input {
+	width: 195%;
+	padding: 5px;
+	background-color: #CCCCCC;
+	border: solid 2px #B3B3B3;
+	border-radius: 3px;
+}
+
+#contact-form textarea {
+	width: 100%;
+	height: 200px;
+	background-color: #CCCCCC;
+	border: solid 2px #B3B3B3;
+	border-radius: 3px;
+}
+
+#contact-form button {
 	float: right;
 	display: block;
 	border: none;
+	border-radius: 3px;
+	padding: 8px;
+	margin: 20px 20px;
+	background-color: #000000;
+	color: #FFFFFF;
+	font-family: 'Heebo', sans-serif;
+	font-weight: 500;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+#contact-form button:hover {
+	color: #B78AFF;
+}
+
+#back-to-top {
+	float: right;
+	display: block;
+	border: none;
+	border-radius: 3px;
 	padding: 8px;
 	background-color: #000000;
 }
 
-#back-to-top a{
+#back-to-top a {
 	font-family: 'Heebo', sans-serif;
 	font-weight: 500;
 	font-size: 12px;
@@ -202,19 +247,27 @@ nav .active{
 	color: #FFFFFF;
 }
 
-#back-to-top a:hover{
+#back-to-top a:hover {
 	color: #B78AFF;
 }
 
-.dark-mode #back-to-top{
+.dark-mode #back-to-top {
 	background-color: #FFFFFF;
 }
 
-.dark-mode #back-to-top a{
+.dark-mode #back-to-top a {
 	color: #000000;
 }
 
-.social-media-panel ul{
+.dark-mode #back-to-top:hover {
+	background-color: #B78AFF;
+}
+
+.dark-mode #back-to-top:hover > a {
+	color: #FFFFFF;
+}
+
+.social-media-panel ul {
 	list-style-type: none;
 	margin: 0px;
 	padding: 0px;
@@ -225,11 +278,11 @@ nav .active{
 	background-color: #000000;
 }
 
-.social-media-panel li{
+.social-media-panel li {
 	float: left;
 }
 
-.social-media-panel li a{
+.social-media-panel li a {
 	display: block;
 	text-decoration: none;
 	padding: 14px 25px 14px 25px;
@@ -238,6 +291,6 @@ nav .active{
 	color: #FFFFFF;
 }
 
-.social-media-panel li a:hover{
+.social-media-panel li a:hover {
 	color: #B78AFF;
 }
