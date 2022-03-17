@@ -1,9 +1,9 @@
 function newWindowAlert() {
-	alert("This link will open a new tab. Click OK to continue.")
+	alert("This link will open a new tab. Click OK to continue.");
 }
 
 function openMailerAlert() {
-	alert("Submitting this form will open your default E-mail application.")
+	alert("Submitting this form will open your default E-mail application.");
 }
 
 button.addEventListener("click", toggleDarkMode);
@@ -27,6 +27,6 @@ function sendEmail() {
 	const messageSubject = document.getElementById('subject').value;
 	const messageContent = document.getElementById('message').value;
 
-	window.location.assign = "mailto:kdefarrar@gmail.com?subject=" + encodeURIcomponent(messageSubject) + "&body=" + encodeURIcomponent(messageContent);
-
+	openMailerAlert();
+	window.open('mailto:kdefarrar@gmail.com?subject=' + messageSubject + '&body=' + messageContent);
 }
